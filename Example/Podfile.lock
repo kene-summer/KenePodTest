@@ -1,0 +1,16 @@
+PODS:
+  - KenePodTest (0.1.0)
+
+DEPENDENCIES:
+  - KenePodTest (from `../`)
+
+EXTERNAL SOURCES:
+  KenePodTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KenePodTest: b74a107db1612096fdba453a4efda6edac2fd2a2
+
+PODFILE CHECKSUM: 684975f7c881a0eeab281c9e1a815aa779d7ab2e
+
+COCOAPODS: 1.10.1

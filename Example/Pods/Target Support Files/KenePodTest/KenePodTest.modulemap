@@ -1,0 +1,6 @@
+framework module KenePodTest {
+  umbrella header "KenePodTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

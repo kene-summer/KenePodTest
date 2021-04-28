@@ -12,14 +12,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		058F6EDF8F9D23D7C454A399 /* KenePodTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KenePodTest.podspec; path = ../KenePodTest.podspec; sourceTree = "<group>"; };
-		25CB5DBE17E7C36D7FBD3131 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		058F6EDF8F9D23D7C454A399 /* KenePodTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KenePodTest.podspec; path = ../KenePodTest.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		25CB5DBE17E7C36D7FBD3131 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		300B6A9172916F1A371FFB37 /* Pods-KenePodTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KenePodTest_Tests.debug.xcconfig"; path = "Target Support Files/Pods-KenePodTest_Tests/Pods-KenePodTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* KenePodTest_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KenePodTest_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		780C4399C634074091902188 /* Pods_KenePodTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KenePodTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B81D31E6E689F0A289C95AC9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B81D31E6E689F0A289C95AC9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E46AFB020CA68957BF1FFD8D /* Pods-KenePodTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KenePodTest_Tests.release.xcconfig"; path = "Target Support Files/Pods-KenePodTest_Tests/Pods-KenePodTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,7 +95,6 @@
 				300B6A9172916F1A371FFB37 /* Pods-KenePodTest_Tests.debug.xcconfig */,
 				E46AFB020CA68957BF1FFD8D /* Pods-KenePodTest_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -147,6 +142,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
