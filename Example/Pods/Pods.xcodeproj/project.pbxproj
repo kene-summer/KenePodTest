@@ -13,6 +13,7 @@
 		8D891CAB9BBB099729218C9D0A3B1BF1 /* Pods-KenePodTest_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90C5DB68C4CFA67AFACACB0771163958 /* Pods-KenePodTest_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		993AEB4C1E4B7B4BDD9C5F777DD0E12B /* KenePodTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 829CBD4B9BFB72574739D3AE1E8E18BF /* KenePodTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6FBEEA12638F74A003DD0C6 /* Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FBEEA02638F74A003DD0C6 /* Demo.swift */; };
+		B6FBEEEC263941E6003DD0C6 /* KenePodTest.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6FBEEEB263941E6003DD0C6 /* KenePodTest.xcassets */; };
 		CEE54EFA9F3903BD118FE76361164D69 /* Pods-KenePodTest_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBA1EDDC2AA5AB8D78BCECFC8B522E6 /* Pods-KenePodTest_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,7 @@
 		AB7405E101231E0A61F34D9048905F28 /* Pods-KenePodTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KenePodTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B1E0FFC61DE711B0FE134D267160A05F /* KenePodTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KenePodTest.modulemap; sourceTree = "<group>"; };
 		B6FBEEA02638F74A003DD0C6 /* Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo.swift; sourceTree = "<group>"; };
+		B6FBEEEB263941E6003DD0C6 /* KenePodTest.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = KenePodTest.xcassets; sourceTree = "<group>"; };
 		D03817C47167A57D8525D4DC19738BD4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		DDBA1EDDC2AA5AB8D78BCECFC8B522E6 /* Pods-KenePodTest_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KenePodTest_Tests-dummy.m"; sourceTree = "<group>"; };
 		E90C6D614C1D09BCB8814CB31A9F66BF /* KenePodTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KenePodTest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -109,11 +111,31 @@
 		A9A1418222984DAE147F5571C36D4634 /* KenePodTest */ = {
 			isa = PBXGroup;
 			children = (
+				B6FBEEDF263941AB003DD0C6 /* Assets */,
+				B6FBEEE1263941AB003DD0C6 /* Classes */,
 				FBC0B29B62AC91A584BFB4E5B1152514 /* Pod */,
 				C490DFD912D688CEAC2C76CB690B3440 /* Support Files */,
 			);
 			name = KenePodTest;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		B6FBEEDF263941AB003DD0C6 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B6FBEEEB263941E6003DD0C6 /* KenePodTest.xcassets */,
+			);
+			name = Assets;
+			path = KenePodTest/Assets;
+			sourceTree = "<group>";
+		};
+		B6FBEEE1263941AB003DD0C6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B6FBEEA02638F74A003DD0C6 /* Demo.swift */,
+			);
+			name = Classes;
+			path = KenePodTest/Classes;
 			sourceTree = "<group>";
 		};
 		BC0A355E05AE4ED945FC3469F851CA85 /* Pods-KenePodTest_Tests */ = {
@@ -170,7 +192,6 @@
 		FBC0B29B62AC91A584BFB4E5B1152514 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				B6FBEEA02638F74A003DD0C6 /* Demo.swift */,
 				E90C6D614C1D09BCB8814CB31A9F66BF /* KenePodTest.podspec */,
 				D03817C47167A57D8525D4DC19738BD4 /* LICENSE */,
 				8D878E885BEBF8DA6807A193B7118F9D /* README.md */,
@@ -282,6 +303,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6FBEEEC263941E6003DD0C6 /* KenePodTest.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
